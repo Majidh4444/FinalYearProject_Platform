@@ -1,7 +1,7 @@
 import streamlit as st
 from pycaret.classification import *
 import pandas as pd
-test_df = pd.read_csv('C:/Users/Acer/Documents/Neural_Ocean/Notebooks_PyFiles/test_data/test_df')
+test_df = pd.read_csv('D:\\Majidh\\Amrita\\Academics\\Sem 8\\Platform\\FinalYearProject_Platform\\test_data\\test_df')
 
 # Define the features and their types
 features = {
@@ -34,8 +34,7 @@ def app2():
     st.title('Water Potability Test Model')
     # Load the pretrained model
     model = load_model(
-        'C:/Users/Acer/Documents/Neural_Ocean/Notebooks_PyFiles/models/Water_Quality_Assessment'
-        '/xgboost_without_source_month')
+        'D:\\Majidh\\Amrita\\Academics\\Sem 8\\Platform\\FinalYearProject_Platform\\models\\Water_Potability\\xgboost_without_source_month.pkl')
     # Create input widgets for each feature
     inputs = {}
     col1, col2, col3 = st.columns(3)

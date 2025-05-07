@@ -11,7 +11,7 @@ labels = ['Mask', 'can', 'cellphone', 'electronics', 'gbottle', 'glove', 'metal'
 
 garbage = []
 def detect(image):
-    model = YOLO("C:\\Users\\Acer\\Documents\\Neural_Ocean\\Notebooks_PyFiles\\models\\YoloV8_Underwater_Dataset\\60_epochs_denoised.pt")
+    model = YOLO("D:\\Majidh\\Amrita\\Academics\\Sem 8\\Platform\\FinalYearProject_Platform\\models\\Underwater_Waste_Detection_YoloV8\\60_epochs_denoised.pt")
     # results = model("C:\\Users\\Acer\\Documents\\Neural_Ocean\\Test_data\\test3.jpg")
     results = model(image)
     class_list = []

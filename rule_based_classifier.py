@@ -10,7 +10,7 @@ def is_habitable(pH, Iron, Nitrate, Chloride, Lead, Zinc, Turbidity, Fluoride, C
         return 1
 
 
-test_df = pd.read_csv('C:/Users/Acer/Documents/Neural_Ocean/Notebooks_PyFiles/test_data/test_df')
+test_df = pd.read_csv('D:\\Majidh\\Amrita\\Academics\\Sem 8\\Platform\\FinalYearProject_Platform\\test_data\\test_df')
 
 # Define the features and their types
 features = {
