@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import matplotlib.pyplot as plt
 import streamlit as st
 import seaborn as sns
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 import torch
 import cv2
 
